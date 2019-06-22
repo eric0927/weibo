@@ -5,6 +5,6 @@
     刻意練習，每日精進
   </a>
   <div class="float-right">
-    <a href="/about">關於</a>
+  <a href="{{ route('about') }}">關於</a>
   </div>
 </footer>
