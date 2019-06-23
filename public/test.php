@@ -11,7 +11,17 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-
+    <?php
+    $firstname = "Bill";
+    $lastname = "Gates";
+    $age = "60";
+    
+    $result = compact("firstname", "lastname", "age");
+    
+    print_r($result);
+    echo '<br />';
+    var_dump($result);
+    ?>
 
 
 
