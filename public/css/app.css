@@ -11144,6 +11144,7 @@ section.user_info {
 }
 
 section.user_info .gravatar {
+  float: none;
   max-width: 70px;
 }
 
