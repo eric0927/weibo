@@ -9,9 +9,9 @@
   </div>{{-- card-haeader --}}
 
   <div class="card-body">
+    @include('shared._errors')
     <form method="POST" action="{{ route('users.store') }}">
-      {{ csrf_field() }}
-      
+      {{ csrf_field() }}      
       <div class="form-group">
         <label for="name">名稱：</label>
         <input type="text" name="name"
