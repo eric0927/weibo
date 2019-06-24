@@ -9,7 +9,9 @@
   </div>{{-- card-haeader --}}
 
   <div class="card-body">
-    <form action="POST" action="{{ route('users.store') }}">
+    <form method="POST" action="{{ route('users.store') }}">
+      {{ csrf_field() }}
+      
       <div class="form-group">
         <label for="name">名稱：</label>
         <input type="text" name="name"
